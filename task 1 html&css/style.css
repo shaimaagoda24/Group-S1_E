@@ -1,0 +1,142 @@
+a{
+    text-decoration: none;      /* بتشيل الخط */
+    font-size: 2rem;
+    color:rgb(3, 3, 3);
+}
+
+
+ul{
+    list-style: none;           /*بتشيل نقط الليست */
+}
+
+
+
+.navbar .container{
+    width:100%;
+    margin: 0 auto ;
+    background-color:rgb(189, 189, 189);
+}
+
+.navbar{
+    background-color:aqua;
+    width :100%;
+    margin:10px auto;
+
+}
+
+
+.navbar .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar .navbar-container .navbar-items ul li{
+    display: inline-block;
+    padding-left: 10;
+    padding-right: 10;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-container .navbar-brand a{
+    font-size: 1.8rem;
+    transition: color 5s ease-in-out;
+    padding-left: 50px;
+}
+
+.navbar .navbar-container .navbar-items ul li a:hover{
+    color:rgb(131, 42, 232);
+}
+
+.navbar .navbar-container .navbar-items ul li a{
+    font-style: unset;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .navbar-container .navbar-brand a:hover{
+    color:rgb(131, 42, 232);
+}
+
+.navbar .navbar-container .navbar-brand a{
+    font-style: unset;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*====================*/
+
+
+
+footer {
+    background-color: #afa5a5;
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .social-icons a {
+    color: #f7f7f7;
+    font-size: 20px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a i {
+    margin-right: 5px;
+  }
+  
+  .copyright,
+  .made-by {
+    width: 40%;
+  }
+  
+  .copyright p,
+  .made-by p {
+    margin: 0;
+  }
+
+
+  /*--------------------*/
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+
+}
+
+
+
+  .section-container  .home-section {
+    background-color: chocolate;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 50%;
+    height: 50px;
+    font-size: 1.5rem;
+    border-color: black;
+    
+  }
