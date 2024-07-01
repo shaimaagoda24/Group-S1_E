@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th ,td {
+    border: 2px solid violet;
+}
+ 
+.col3 .first-div table th , .col3 .first-div table td{
+    border:rgb(255, 255, 74) solid;
+}
+
+.col3 .second-div table th ,.col3 .second-div table td{
+    border: rgb(76, 0, 255) solid;
+}
+
+.col4 .first-div .outertable th,.col4 .first-div .outertable td{
+    border:3px green solid;
+    
+}
+
+.col4 .first-div .outertable .innertable th ,.col4 .first-div .outertable .innertable td{
+    border:red solid;   
+}
